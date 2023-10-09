@@ -32,11 +32,11 @@ export const openseaUrl = () => {
     case '1':
       // Mainnet
       return `https://opensea.io/collection/${name}`
-    case '4':
+    case '137':
       // Rinkeby
       return `https://testnets.opensea.io/collection/${name}`
     default:
-      return ``
+      return  `https://opensea.io/collection/${name}`
   }
 }
 
