@@ -34,7 +34,7 @@ const Component: React.FC = () => {
               <Button onClick={mint} disabled={store.isClaiming}>
                 {store.isClaiming
                   ? 'claiming...'
-                  : `MINT (${store.claimPrice} ETH)`}
+                  : `MINT (${store.claimPrice} )`}
               </Button>
             ) : (
               <Button onClick={connectWallet}>
@@ -45,7 +45,7 @@ const Component: React.FC = () => {
               {store.claimedSupply} / {store.totalSupply}
             </Text>
             <Text pt={2} fontSize="xs" textAlign={'center'}>
-              goerli testnet
+              Polygon (Mainnet)
             </Text>
           </div>
         </VStack>
