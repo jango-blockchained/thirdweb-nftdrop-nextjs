@@ -1,14 +1,12 @@
-# NFTDrop(thirdweb )nextjs example
+# NFTDrop (thirdweb) + Nextjs > Vercel
 
-This templates demonstrate the frontend connecting NFTDrop thirdweb's pre-build contract.
+An NextJS based NFT miniting project.
 
-## Demo
+## Link
 
-https://nftdrop-example.hanzochang.com
+[https://thirdweb-nftdrop-nextjs-oh59un9l6-jango-blockchained.vercel.app](https://thirdweb-nftdrop-nextjs-oh59un9l6-jango-blockchained.vercel.app/)
 
-<img width="1920" alt="スクリーンショット 2022-07-01 9 48 49" src="https://user-images.githubusercontent.com/1862066/176801220-7fb3cfc7-8eed-43e0-b314-978020585c29.png">
-
-Connecting Ethereum testnet(rinkeby).
+Connecting Polygon (Mainnet).
 
 ## Features
 
@@ -31,9 +29,3 @@ yarn dev
 ```
 
 Open http://localhost:3000 with your browser to see the result.
-
-## Learn More
-
-(Japanese documentation) thirdweb の使い方 - 独自コントラクトの作成と「NFT の MINT サイト」の作り方を紹介
-
-https://hanzochang.com/articles/10
