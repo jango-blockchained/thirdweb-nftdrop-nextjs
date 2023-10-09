@@ -47,7 +47,7 @@ const Component: React.FC = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href={`https://rinkeby.etherscan.io/address/${token.owner}`}
+                    href={`https://polygonscan.com/address/${token.owner}`}
                     style={{ overflowWrap: 'break-word' }}
                   >
                     {token.owner}
