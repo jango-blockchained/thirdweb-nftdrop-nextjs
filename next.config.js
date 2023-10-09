@@ -6,6 +6,6 @@ const nextConfig = {
 module.exports = {
   ...nextConfig,
   images: {
-    domains: ['gateway.ipfscdn.io'],
+    domains: ['6f83bc6934d910d3e3a0bf7dd7800bf4.ipfscdn.io/ipfs/'],
   },
 }
